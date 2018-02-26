@@ -1,0 +1,43 @@
+body{	
+	margin: 0;
+}
+*{
+	text-align: center;
+}
+header{
+	padding 20px 0;
+	background-color: #7300c7;
+}
+/*usuwanie marginesów dla p i h1*/
+h1, p{
+	margin: 0;
+}
+/*Ustawienie wysokosci dla poszczególnych elementów*/
+header, footer{
+	height: 10vh;
+}
+/*Style dla środkowej części strony*/
+section{
+	display: flex;
+	height: 80vh;
+}
+#left-aside{
+	background-color: #3fbe07;
+	flex: 1;
+}
+
+article{
+	background-color: #211c1c;
+	color: #fff;
+	flex:2;
+}
+#right-aside{
+	background-color: #ba0c27;
+	flex: 1;
+}
+
+
+
+
+footer{
+	background-color:#9c9c2f;
