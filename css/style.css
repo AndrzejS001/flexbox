@@ -23,21 +23,16 @@ section{
 }
 #left-aside{
 	background-color: #3fbe07;
-	flex: 1;
 }
 
 article{
 	background-color: #211c1c;
-	color: #fff;
-	flex:2;
+	
 }
 #right-aside{
 	background-color: #ba0c27;
-	flex: 1;
 }
 
-
-
-
+/*Style dla stopki*/
 footer{
 	background-color:#9c9c2f;
